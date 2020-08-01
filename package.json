@@ -1,16 +1,27 @@
 {
   "name": "basics-of-node",
   "version": "1.0.0",
-  "description": "This is a directory to learn basics of Git and Node",
+  "description": "",
   "main": "index.html",
   "scripts": {
-    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+    "preinstall": "npx npm-force-resoltutions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitRondo/basics-of-node.git"
   },
   "author": "Disura Warusawithana",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bitRondo/basics-of-node/issues"
+  },
+  "homepage": "https://github.com/bitRondo/basics-of-node#readme",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "lite-server": "^2.5.4",
+    "minimist": "^1.2.5"
+  },
+  "resolutions": {
+    "minimist": "^1.2.5"
   }
 }
